@@ -4,6 +4,11 @@ import math
 def calculate_area(radius):
     return math.pi * radius ** 2
  
+def calculate_circumference(radius):
+    return 2 * math.pi * radius
+ 
+def calculate_volume(radius):
+    return (4 / 3) * math.pi * radius ** 3 
 
 def display_results(area, circumference, volume):
     print(f"Area of the circle: {area:.2f}")
